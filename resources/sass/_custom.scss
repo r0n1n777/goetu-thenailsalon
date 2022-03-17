@@ -1,0 +1,289 @@
+body {
+    overflow-x: hidden;
+}
+
+.book-us-button {
+    background: linear-gradient(to right, #E4D487, #C49735);
+}
+
+.book-us-button:hover {
+    background: linear-gradient(to right, #C49735, #E4D487);
+}
+
+// ---
+
+.home-banner, .services-banner, .promo-banner, .gallery-banner,
+.contact-banner, .rate-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-banner {
+    background-image: url('../images/home-banner.webp');
+    
+}
+
+.services-banner {
+    background-image: url('../images/services-banner.webp');    
+}
+
+.promo-banner {
+    background-image: url('../images/promo-banner.webp');    
+}
+
+.gallery-banner {
+    background-image: url('../images/gallery-banner.webp');    
+}
+
+.contact-banner {
+    background-image: url('../images/contact-banner.webp');    
+}
+
+.rate-banner {
+    background-image: url('../images/rate-banner.webp');    
+}
+
+// ---
+
+.home-carousel {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.home-rounded {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.home-third-section {
+    width: 100vw;
+    background: url('../images/home/third-section-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-third-section-inner {
+    background: url('../images/home/third-section-inner-bg.webp');
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.home-third-section-inner img {
+    width: 75%;
+}
+
+.home-form-section {
+    background: url('../images/home/form-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 400px 100px 400px;
+}
+
+.contact-section {
+    background: url('../images/home/third-section-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services-first-section, .services-pedicure, .services-manicure, .services-waxing, .promo-header {
+    background: url('../images/home/third-section-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services-rounded {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.services-pedicure-header h1, .services-manicure-header h1, .services-waxing-header h1 {
+    font-size: 80px;
+}
+
+.services-pedicure-header {
+    background: url('../images/services/pedicure-header.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.services-pedicure-content {
+    background: url('../images/services/pedicure-content-inner.webp');
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+    
+.services-pedicure-content img {
+    width: 75%;
+}
+
+.services-manicure-header {
+    background: url('../images/services/manicure-header.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+
+.services-manicure-content {
+    background: url('../images/services/manicure-content-inner.webp');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+    
+.services-manicure-content img {
+    width: 75%;
+}
+
+.services-waxing-header {
+    background: url('../images/services/waxing-header.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+
+.services-waxing-content {
+    background: url('../images/services/waxing-content-inner.webp');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+    
+.services-waxing-content img {
+    width: 75%;
+}
+
+.contact-header {
+    background: url('../images/contact/contact-header.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.contact-header h1 {
+    font-size: 50px;
+}
+
+.rate-header {
+    background: url('../images/rate/rate-header.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.rate-header h1 {
+    font-size: 50px;
+}
+
+.rate-content {
+    background: url('../images/home/third-section-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rate-content-logo {
+    width: 400px;
+}
+
+.rate-star {
+    width: 120px;
+}
+
+.gallery-content {
+    background: url('../images/home/third-section-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+// --- 
+
+.social-media-logo {
+    width: 60px;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .home-carousel {
+        height: 250px;
+    }
+
+    .home-rounded {
+        width: 150px;
+        height: 150px;
+    }
+
+    .home-third-section-inner img {
+        width: 100% !important;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .home-carousel {
+        height: 300px;
+    }
+
+    .home-rounded {
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-third-section-inner img {
+        width: 100% !important;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .home-carousel {
+        height: 300px;
+    }
+
+    .home-third-section-inner img {
+        width: 100% !important;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    
+}
