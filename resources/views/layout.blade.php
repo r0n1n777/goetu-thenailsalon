@@ -89,12 +89,12 @@
 
         {{-- Footer --}}
 
-        <footer class="bg-black p-2" data-aos="fade-up">
+        <footer class="bg-black p-2">
             <div class="row">
-                <div class="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center align-items-center" data-aos="fade-up">
                     <img src="{{ asset('images/logo-white.webp') }}" width="200px" height="auto">
                 </div>
-                <div class="col-md-4 col-sm-6 d-flex flex-column align-items-center">
+                <div class="col-md-4 col-sm-6 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="text-left">
                         <a class="text-decoration-none" href="{{ route('home') }}">
                             <h4 class="text-white">HOMEPAGE</h4>
@@ -113,7 +113,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
                     <h5 class="text-white font-weight-bold"><b>OUR SOCIAL MEDIA</b></h5>
                     <div>
                         <a class="text-decoration-none" href="https://www.facebook.com/thenailsalonnn">
