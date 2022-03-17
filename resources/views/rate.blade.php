@@ -21,11 +21,11 @@
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star">
-            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star">
-            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star">
-            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star">
-            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star">
+            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="1">
+            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="2">
+            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="3">
+            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="4">
+            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="5">
         </div>
         <div class="text-center">
             <p class="h1 text-white">FIND US ON YELP</p>

@@ -3,7 +3,7 @@
 @section('title', 'Services - The Nail Salon')
 
 @section('content')
-<div class="p-3 services-first-section">
+<div class="p-3 services-first-section" id="list-of-services">
     <div class="container">
         <div class="row">
             <div class="col d-flex flex-column justify-content-center align-items-center">

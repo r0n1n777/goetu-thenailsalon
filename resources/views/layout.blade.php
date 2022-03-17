@@ -91,21 +91,21 @@
 
         <footer class="bg-black p-2">
             <div class="row">
-                <div class="col-md-4 col-sm-6 d-flex justify-content-center align-items-center" data-aos="fade-up">
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
                     <img src="{{ asset('images/logo-white.webp') }}" width="200px" height="auto">
                 </div>
-                <div class="col-md-4 col-sm-6 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 col-sm-6 d-flex flex-column align-items-center">
                     <div class="text-left">
                         <a class="text-decoration-none" href="{{ route('home') }}">
                             <h4 class="text-white">HOMEPAGE</h4>
                         </a>
-                        <a class="text-decoration-none" href="{{ route('services') }}">
+                        <a class="text-decoration-none" href="{{ route('services') }}#list-of-services">
                             <h4 class="text-white">MENU/SERVICES</h4>
                         </a>
                         <a class="text-decoration-none" href="{{ route('contact') }}">
                             <h4 class="text-white">SEND US AN EMAIL</h4>
                         </a>
-                        <a class="text-decoration-none" href="{{ route('home') }}">
+                        <a class="text-decoration-none" href="{{ route('home') }}#find-us">
                             <h4 class="text-white">WHERE TO FIND US</h4>
                         </a>
                         <a class="text-decoration-none" href="{{ route('rate') }}">
@@ -113,7 +113,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-items-center">
                     <h5 class="text-white font-weight-bold"><b>OUR SOCIAL MEDIA</b></h5>
                     <div>
                         <a class="text-decoration-none" href="https://www.facebook.com/thenailsalonnn">
@@ -132,7 +132,7 @@
 
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('js/header.js') }}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
         <script src="{{ asset('js/fslightbox.js') }}"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init();</script>

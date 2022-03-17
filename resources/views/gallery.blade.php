@@ -31,7 +31,7 @@
 
 <div class="gallery-content" data-aos="fade-up">
     <div class="container">
-        <div class="row photos pt-3">
+        <div class="row p-5">
             @for ($x = 12; $x >= 1; $x--)
             <div class="col-4 text-center item">
                 <a data-fslightbox="gallery" href="{{ asset('images/gallery/'.$x.'.webp') }}">

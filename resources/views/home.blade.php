@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div class="contact-section p-3" data-aos="fade-up">
+<div class="contact-section p-3" data-aos="fade-up" id="find-us">
     <div class="container">
         <div class="row">
             <div class="col-md-7 col-sm-12 text-center">
