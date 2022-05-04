@@ -28,9 +28,9 @@
         @endif">
             <img src="{{ asset('images/logo.webp') }}" class="img-fluid w-50" data-aos="fade-up"><br>
             <div class="bg-primary p-1 w-25 rounded"></div>
-            <button type="button" class="p-3 my-4 book-us-button border-0 rounded" data-aos="fade-right">
+            <a href="https://salons.go3reservation.com/nailsalon" target="_blank" class="text-dark text-decoration-none p-3 my-4 book-us-button border-0 rounded" data-aos="fade-right">
                 <h1 class="font-weight-bold m-0"><b>BOOK US</b></h1>
-            </button>
+            </a>
         </div>
         {{-- Header --}}
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-3" id="header">
@@ -74,7 +74,7 @@
                         </a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#!">
+                        <a class="nav-link" href="https://salons.go3reservation.com/nailsalon" target="_blank">
                             <h3 class="font-weight-bold text-primary">BOOK US</h3>
                         </a>
                     </li>
